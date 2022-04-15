@@ -1,0 +1,51 @@
+.irideContainer {
+  background-color: #171717;
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-ev;
+  width: 100%;
+}
+.irideImageContainer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.irideInfoContainer {
+  display: flex;
+  flex: 3;
+}
+.irideImage {
+  height: 130px;
+  width: 160px;
+}
+.iridetextContainer {
+  padding-top: 40px;
+  justify-content: space-between;
+}
+.iridetextInfo {
+  margin-top: 10px;
+  margin-left: 50px;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+}
+.irideLocationContainer {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  color: white;
+
+  justify-content: safe;
+  font-size: 15px;
+}
+.irideCity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 80px;
+}
+.irideState {
+  display: flex;
+  justify-content: center;
+}

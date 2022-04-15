@@ -1,0 +1,73 @@
+.ridesContainer {
+  background-color: #292929;
+}
+.rideInfo {
+  display: flex;
+  /* justify-content: ; */
+  align-items: center;
+}
+.rideTimeContainer {
+  display: flex;
+  align-items: center;
+  height: 90px;
+}
+
+.rideTime {
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 50px;
+  cursor: pointer;
+  background-color: #292929;
+}
+.chosenrideTime {
+  color: #ffffe0;
+  font-weight: 600;
+  transform: scale(1.2);
+}
+
+.filterContainer {
+  color: white;
+}
+.filters {
+  margin-left: 200px;
+  display: flex;
+  align-items: center;
+}
+.filterClicked {
+  transform: scale(1.1);
+  color: #ffff33;
+}
+.rides {
+  width: 100%;
+}
+.popupContainer {
+  margin-left: 50px;
+  background-color: #131313;
+}
+input {
+  color: white;
+  height: 25px;
+  border-radius: 10%;
+  background-color: #232323;
+  -webkit-appearance: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.filterText {
+  background-color: #232323;
+  margin-top: 10px;
+  font-size: 16px;
+}

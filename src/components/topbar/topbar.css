@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.edvora {
+  font-weight: 700;
+  color: white;
+  font-size: 36px;
+}
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.userName {
+  font-weight: 700;
+  color: white;
+  font-size: 20px;
+  margin-right: 30px;
+}
+.userImage {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
